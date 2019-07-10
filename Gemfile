@@ -34,13 +34,7 @@ gem 'bootsnap', '>= 1.1.0', require: false
 gem 'devise'
 gem 'bootstrap', '~> 4.3'
 gem 'httparty'
-gem 'news-api'
-gem 'will_paginate'
-gem 'will_paginate-bootstrap', '~> 1.0', '>= 1.0.1'
-gem "pundit"
 gem 'sidekiq'
-gem 'redis-rails'
-gem 'minitest',  '~> 5.11.3'
 # Use Capistrano for deployment
 # gem 'capistrano-rails', group: :development
 
