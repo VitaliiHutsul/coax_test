@@ -1,6 +1,4 @@
 class ParserService
-	include HTTParty
-	base_uri 'https://rubysec.com/advisories'
 	def render_data
 		url = "https://rubysec.com/advisories"
 		unparsed_page = HTTParty.get(url)
@@ -29,8 +27,5 @@ class ParserService
 		end
 	end
 
-	def save_date
-		
-		
-	end
+
 end
